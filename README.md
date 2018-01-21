@@ -13,7 +13,8 @@ Clone this [repo](https://github.com/googlecodelabs/tensorflow-for-poets-2). It 
     cd tf_files
 
 ### Step 4:
-Copy the `organise_images.ipynb` to `tensorflow-for-poets-2/tf_files` directory. `organise_images.ipynb` is a helper that will create sub-folders inside the `base_folder`. Each sub-folder is named after one of the categories and contains only images from that category.
+Copy the `organise_images.ipynb`, labels and images of dogs to `tensorflow-for-poets-2/tf_files` directory.  
+`organise_images.ipynb` is a helper that will create sub-folders inside the `base_folder`. Each sub-folder is named after one of the categories and contains only images from that category.
 
 ### Step 5: 
 Open the notebook: `organise_images.ipynb` using the command: `jupyter notebook` and update the following variables in the notebook:

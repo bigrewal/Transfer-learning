@@ -1,5 +1,5 @@
-## Transfer-learning
-Dog Breed Identification using MobileNet. 
+## Transfer Learning using Tensorflow
+Dog Breed Identification using MobileNet. Make sure you have the latest version of tensorflow, execute this command: `pip install --upgrade tensorflow`
 
 ### Step 1
 Download the images of dogs and labels from [here](https://www.kaggle.com/c/dog-breed-identification/data)

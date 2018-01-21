@@ -26,7 +26,8 @@ Open the notebook: `organise_images.ipynb` using the command: `jupyter notebook`
 Run the notebook!
 
 ### Step 6: Re-train
-Switch to 
+Switch back to `tensorflow-for-poets-2/` directory
+
     python -m scripts.retrain \
     --bottleneck_dir=tf_files/bottlenecks \
     --how_many_training_steps=500 \
@@ -39,7 +40,7 @@ Switch to
  
  Substitute `${ARCHITECTURE}` with `mobilenet_1.0_224` and `--image_dir=tf_files/dog_photos` with `--image_dir=tf_files/{base_folder}`
  
- Run the above command and hopefully it will start training! For more [info] (https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#3)
+ **Run the above command and hopefully** it will start training! For more [info](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#3)
  
  ### Step 7: Testing the model on a image
     python -m scripts.label_image \

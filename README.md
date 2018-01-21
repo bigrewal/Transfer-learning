@@ -40,7 +40,7 @@ Switch back to `tensorflow-for-poets-2/` directory
  
  Substitute `${ARCHITECTURE}` with `mobilenet_1.0_224` and `--image_dir=tf_files/dog_photos` with `--image_dir=tf_files/{base_folder}`
  
- **Run the above command and hopefully** it will start training! For more [info](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#3)
+ **Run the above command** and hopefully it will start training! For more [info](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#3)
  
  ### Step 7: Testing the model on a image
     python -m scripts.label_image \
